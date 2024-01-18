@@ -1,16 +1,60 @@
 body {
-   
+    font-family:'Arial',sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4f4;
+  
 }
-
+h1{
+    text-align: center;
+    color:#333
+}
 
 form {
     width: 300px; 
     padding: 20px;
     border: 1px solid black;
     border-radius: 10px;
+    background-colour:#ffff;
 }
 
-
+form{
+    width: 300px;
+    padding: 300px;
+    border: 1px solid #ccc;
+    border-radius:10px;
+    background-color: #ffff;
+}
+label{
+    display: block;
+    margin-bottom:8px;
+    color:#555
+}
+input[type="text"],
+select, 
+input [type="radio"]{
+    width:100%;
+    padding:8px;
+    margin-bottom:12px;
+    box-sizing:border-box;
+}
+select{
+    margin-bottom:20px;
+}
+div{
+    margin-bottom:12px;
+}
+button{
+    background-color: #4caf50;
+    color:#ffff;
+    padding:10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #45a049;
+}
 .questionnaire{
     display: flex;
     justify-content: center;
